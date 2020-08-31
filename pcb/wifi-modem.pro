@@ -1,4 +1,4 @@
-update=2020-08-28 23:53:53
+update=2020-08-31 00:10:11
 version=1
 last_client=kicad
 [general]
@@ -250,7 +250,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=./
+PlotDirectoryName=../../../Users/michel/OneDrive/Projects/wifi-modem/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

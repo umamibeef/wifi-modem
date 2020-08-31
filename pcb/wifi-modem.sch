@@ -5,7 +5,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "WiFi Modem"
-Date "2020-08-27"
+Date "2020-08-31"
 Rev "2.0"
 Comp "Michel Kakulphimp - VA7XMK"
 Comment1 ""
