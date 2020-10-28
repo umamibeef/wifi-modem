@@ -255,26 +255,6 @@ F 3 "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manua
 	1    3850 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1250 7450 1250 7550
-Connection ~ 1250 7450
-Wire Wire Line
-	1350 7450 1250 7450
-Wire Wire Line
-	1250 7350 1250 7450
-Wire Wire Line
-	1350 7350 1250 7350
-$Comp
-L power:GND #PWR03
-U 1 1 5F11E723
-P 1250 7550
-F 0 "#PWR03" H 1250 7300 50  0001 C CNN
-F 1 "GND" H 1255 7377 50  0000 C CNN
-F 2 "" H 1250 7550 50  0001 C CNN
-F 3 "" H 1250 7550 50  0001 C CNN
-	1    1250 7550
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR05
 U 1 1 5F0E4FB6
@@ -994,7 +974,6 @@ NoConn ~ 6300 2800
 NoConn ~ 6300 2700
 NoConn ~ 6300 2600
 NoConn ~ 6300 2500
-NoConn ~ 4450 2350
 NoConn ~ 3250 2450
 NoConn ~ 3250 2350
 NoConn ~ 3250 2250
@@ -1838,4 +1817,27 @@ Wire Wire Line
 Connection ~ 800  800 
 Wire Wire Line
 	2800 1950 2800 2050
+Text GLabel 4450 2350 2    50   Input ~ 0
+ESP_GPIO16_LED_EN
+Text Notes 4450 2650 0    50   ~ 0
+GPIO 16 is pulled high\nin ESP-12F module
+Text GLabel 1350 7750 0    50   Input ~ 0
+ESP_GPIO16_LED_EN
+Wire Wire Line
+	1350 7450 1350 7750
+Wire Wire Line
+	1350 7350 1150 7350
+Wire Wire Line
+	1150 7350 1150 7450
+$Comp
+L power:GND #PWR0102
+U 1 1 5F711E40
+P 1150 7450
+F 0 "#PWR0102" H 1150 7200 50  0001 C CNN
+F 1 "GND" H 1155 7277 50  0000 C CNN
+F 2 "" H 1150 7450 50  0001 C CNN
+F 3 "" H 1150 7450 50  0001 C CNN
+	1    1150 7450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
